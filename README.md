@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Junaid Ahamed Jesan</h1>
 <h3 align="center">A passionate frontend developer from Bangladesh</h3>
 
-<img aligh="right" alt="coding" width="400" src="https://miro.medium.com/v2/resize:fit:680/0*1tmQJdANsZx5iHvT">
+<img aligh="right" alt="coding" width="400" src="https://miro.medium.com/v2/resize:fit:1360/1*VON9gHTrzeHZbHfXsqfzEA.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=junaidjesan2&label=Profile%20views&color=0e75b6&style=flat" alt="junaidjesan2" /> </p>
 

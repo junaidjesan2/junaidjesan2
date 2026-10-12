@@ -20,18 +20,17 @@ export interface JudgeProfile {
 
 export const PROFILE_INFO = {
   name: "Junaid Ahamed Jesan",
-  title: "Country Manager (Bangladesh) at Fly Away International 🌏",
+  title: "Founder at Porte Jai.edu 🌏",
   subtitles: [
-    "Country Manager (Bangladesh) at Fly Away International 🌏",
+    "Founder at Porte Jai.edu 🌏",
     "Problem Solver & Competitive Programmer ⚡",
     "React & JavaScript Engineer 💻",
     "SQA & Playwright Test Automation Specialist 🧪",
     "Machine Learning Explorer 📚"
   ],
-  bio: "Country Manager for Fly Away International in Bangladesh with a stellar track record of 150+ successful student admissions (100% success rate) to premier international universities. Simultaneously passionate about Software Engineering, Test Automation (Playwright, SQA), React ecosystem, and competitive problem-solving.",
+  bio: "Founder at Porte Jai.edu with a stellar track record of 150+ successful student admissions (100% success rate) to premier international universities. Simultaneously passionate about Software Engineering, Test Automation (Playwright, SQA), React ecosystem, and competitive problem-solving.",
   email: "junaidjesan2@gmail.com",
-  portfolioUrl: "https://junaidjesan.netlify.app/",
-  flyAwayUrl: "https://flyawayinternational.com",
+  porteJaiUrl: "https://portejaiedu.netlify.app/index.html",
   location: "Dhaka, Bangladesh",
   viewsUrl: "https://komarev.com/ghpvc/?username=junaidjesan2&label=Profile%20views&color=0e75b6&style=flat",
   socials: [
@@ -80,21 +79,21 @@ export const PROFILE_INFO = {
   ]
 };
 
-export const FLY_AWAY_STATS = {
-  role: "Country Manager (Bangladesh)",
-  duration: "1 Year+",
-  admissions: "150+",
-  successRate: "100%",
+export const PORTE_JAI_STATS = {
+  role: "Founder",
+  organization: "Porte Jai.edu",
+  admissions: "1000+",
+  successRate: "upto 90%",
   partnerUniversities: "45+",
-  countriesRepresented: ["United Kingdom", "United States", "Canada", "Australia", "Germany", "Malaysia", "Sweden"],
+  countriesRepresented: ["South Korea", "China", "Malaysia", "Hungary", "Cyprus"],
   achievements: [
     {
-      title: "150+ Successful Student Admissions",
+      title: "1000+ Successful Student Admissions",
       detail: "Assisted students in securing admissions and scholarship offers across top-tier universities worldwide.",
       tag: "Admissions"
     },
     {
-      title: "100% Admission & Visa Success Rate",
+      title: "upto 100% Admission & Visa Success Rate",
       detail: "Maintained a spotless success rate through rigorous document auditing and interview coaching.",
       tag: "Excellence"
     },
@@ -116,6 +115,8 @@ export const FLY_AWAY_STATS = {
   ],
   quote: "Helping students achieve their dream of studying abroad, ensuring a smooth process from counseling to campus."
 };
+
+export const FLY_AWAY_STATS = PORTE_JAI_STATS;
 
 export const JUDGE_PROFILES: JudgeProfile[] = [
   {
@@ -283,24 +284,24 @@ export const SKILLS_LIST: SkillItem[] = [
 
 export const PROJECTS = [
   {
-    id: "portfolio-hub",
-    title: "Personal Portfolio & Web Showcase",
-    subtitle: "junaidjesan.netlify.app",
-    link: "https://junaidjesan.netlify.app/",
-    description: "Live responsive personal web portfolio featuring projects, technical accomplishments, and contact integration.",
-    tags: ["React", "JavaScript", "Responsive Design", "Netlify"],
-    badge: "Live Project",
-    status: "Published"
+    id: "porte-jai-edu",
+    title: "Porte Jai.edu — Global Admissions & Study Abroad",
+    subtitle: "Founder & Lead Educational Strategist",
+    link: "#leadership",
+    description: "International study abroad and foreign university admissions initiative founded by Junaid Ahamed Jesan, achieving 150+ student placements with a 100% visa success rate.",
+    tags: ["Global Education", "Founder", "Admissions", "Student Mentorship"],
+    badge: "Founder • 150+ Placements",
+    status: "Active Initiative"
   },
   {
-    id: "fly-away-portal",
-    title: "Fly Away International Bangladesh Operations",
-    subtitle: "flyawayinternational.com",
-    link: "https://flyawayinternational.com",
-    description: "Country leadership operations driving 150+ foreign university student placements across UK, USA, Australia, and Canada with a 100% visa success rate.",
-    tags: ["Global Education", "Leadership", "Student Counseling", "Partnerships"],
-    badge: "150+ Admissions",
-    status: "Active Leadership"
+    id: "frontend-react-stack",
+    title: "React & Modern Web Architecture",
+    subtitle: "Interactive Web Systems & Components",
+    link: "https://github.com/junaidjesan2",
+    description: "Responsive interfaces and web applications engineered with React, TypeScript, Tailwind CSS, and scalable component architecture.",
+    tags: ["React", "JavaScript", "TypeScript", "Tailwind CSS"],
+    badge: "Frontend Engineering",
+    status: "Active"
   },
   {
     id: "qa-automation-suite",

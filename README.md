@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Junaid Ahamed Jesan</h1>
 <h3 align="center">
-Country Manager (Bangladesh) at Fly Away International 🌏 | Problem Solver & Explorer 🚀<br>
+Founder of Porte Jai 🌏 | Problem Solver & Explorer 🚀<br>
 Skilled in React, JavaScript, Postman, Playwright, Competitive Programming ⚡ | Currently diving into Machine Learning 📚
 </h3>
 
@@ -8,15 +8,14 @@ Skilled in React, JavaScript, Postman, Playwright, Competitive Programming ⚡ |
 
 ### 🌏 Fly Away International — Country Manager (Bangladesh)
 
-<a href="https://flyawayinternational.com" target="_blank">
-  <img src="https://img.shields.io/badge/🌟_150+_Successful_Admissions-100%25_Success_Rate-brightgreen?style=for-the-badge" alt="Success Badge" />
+<a href="https://facebook.com/portejai.edu" target="_blank">
+  <img src="https://img.shields.io/badge/🌟_1000+_Successful_Admissions-upto 90%25_Success_Rate-brightgreen?style=for-the-badge" alt="Success Badge" />
 </a>
 
-💼 **Role:** Country Manager (Bangladesh)  
-📅 **Duration:** 1 Year+  
+💼 **Role:** Founder    
 🎯 **Achievements:**  
-- ✅ **150+ successful student admissions** to top foreign universities  
-- 🎓 **100% admission success rate**  
+- ✅ **100+ successful student admissions** to top foreign universities  
+- 🎓 **upto 90% admission success rate**  
 - 🤝 Increased **student engagement & trust** through personalized counseling  
 - 📈 Built strong **university partnerships** abroad  
 - 🗣️ Conducted **seminars & spot admission events**  

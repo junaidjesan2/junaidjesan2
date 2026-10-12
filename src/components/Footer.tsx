@@ -1,6 +1,5 @@
 import React from 'react';
 import { ArrowUp, Heart, Globe, Sparkles } from 'lucide-react';
-import { PROFILE_INFO } from '../data/profileData';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -20,7 +19,7 @@ export const Footer: React.FC = () => {
             <div>
               <div className="font-bold text-slate-200 text-sm">Junaid Ahamed Jesan</div>
               <div className="text-[11px] text-slate-400">
-                Country Manager (Bangladesh) @ Fly Away International • Software QA & React
+                Founder @ Porte Jai.edu • Software QA & React
               </div>
             </div>
           </div>
@@ -28,13 +27,10 @@ export const Footer: React.FC = () => {
           {/* Quick links */}
           <div className="flex flex-wrap items-center justify-center gap-4 text-slate-400">
             <a href="#about" className="hover:text-white transition-colors">About</a>
-            <a href="#leadership" className="hover:text-white transition-colors">Fly Away Leadership</a>
+            <a href="#leadership" className="hover:text-white transition-colors">Porte Jai.edu</a>
             <a href="#skills" className="hover:text-white transition-colors">Skills</a>
             <a href="#problem-solving" className="hover:text-white transition-colors">Problem Solving</a>
             <a href="#sqa-lab" className="hover:text-white transition-colors">SQA Lab</a>
-            <a href={PROFILE_INFO.portfolioUrl} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-              Live Portfolio
-            </a>
             <a href="#contact" className="hover:text-white transition-colors">Contact</a>
           </div>
 

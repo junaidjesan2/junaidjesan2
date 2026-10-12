@@ -89,7 +89,7 @@ export const ContactSection: React.FC = () => {
                 </div>
               </div>
               <p className="text-xs text-slate-300">
-                Country Manager (Bangladesh) — Fly Away International
+                Founder — Porte Jai.edu
               </p>
             </div>
 

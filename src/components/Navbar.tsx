@@ -8,10 +8,8 @@ import {
   Mail, 
   Menu, 
   X, 
-  ExternalLink,
   Sparkles
 } from 'lucide-react';
-import { PROFILE_INFO } from '../data/profileData';
 
 export const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -27,7 +25,7 @@ export const Navbar: React.FC = () => {
 
   const navLinks = [
     { name: 'About', href: '#about', icon: Sparkles },
-    { name: 'Fly Away Leadership', href: '#leadership', icon: Globe },
+    { name: 'Porte Jai.edu', href: '#leadership', icon: Globe },
     { name: 'Skills & Tech', href: '#skills', icon: Code2 },
     { name: 'Problem Solving', href: '#problem-solving', icon: Briefcase },
     { name: 'SQA Lab', href: '#sqa-lab', icon: TestTube },
@@ -60,7 +58,7 @@ export const Navbar: React.FC = () => {
               </div>
               <div className="text-xs text-slate-400 flex items-center gap-1">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                <span>Country Manager & Dev</span>
+                <span>Founder & Dev</span>
               </div>
             </div>
           </a>
@@ -81,17 +79,8 @@ export const Navbar: React.FC = () => {
           {/* Right Action Buttons */}
           <div className="hidden sm:flex items-center gap-3">
             <a
-              href={PROFILE_INFO.portfolioUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs font-medium text-slate-300 hover:text-white px-3 py-2 rounded-lg border border-slate-800 hover:border-slate-700 bg-slate-900/60 flex items-center gap-1.5 transition-colors"
-            >
-              <span>Live Portfolio</span>
-              <ExternalLink className="w-3.5 h-3.5 text-slate-400" />
-            </a>
-            <a
               href="#contact"
-              className="text-xs font-semibold px-3.5 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white shadow-md shadow-blue-600/20 transition-all"
+              className="text-xs font-semibold px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white shadow-md shadow-blue-600/20 transition-all"
             >
               Get in Touch
             </a>
@@ -128,15 +117,6 @@ export const Navbar: React.FC = () => {
             );
           })}
           <div className="pt-3 border-t border-slate-800 flex flex-col gap-2">
-            <a
-              href={PROFILE_INFO.portfolioUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full text-center text-sm font-medium text-slate-200 py-2.5 rounded-lg border border-slate-800 bg-slate-900 flex items-center justify-center gap-2"
-            >
-              <span>Visit junaidjesan.netlify.app</span>
-              <ExternalLink className="w-4 h-4" />
-            </a>
             <a
               href="#contact"
               onClick={() => setMobileMenuOpen(false)}

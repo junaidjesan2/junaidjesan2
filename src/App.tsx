@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
-import { FlyAwayLeadership } from './components/FlyAwayLeadership';
+import { PorteJaiLeadership } from './components/PorteJaiLeadership';
 import { SkillsSection } from './components/SkillsSection';
 import { CompetitiveProgramming } from './components/CompetitiveProgramming';
 import { SqaAutomationLab } from './components/SqaAutomationLab';
@@ -19,7 +19,7 @@ export const App: React.FC = () => {
       {/* Main Content Sections */}
       <main className="flex-grow">
         <Hero />
-        <FlyAwayLeadership />
+        <PorteJaiLeadership />
         <SkillsSection />
         <CompetitiveProgramming />
         <SqaAutomationLab />

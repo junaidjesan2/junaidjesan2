@@ -17,9 +17,9 @@ import {
   FileCheck2,
   BookOpen
 } from 'lucide-react';
-import { FLY_AWAY_STATS, PROFILE_INFO } from '../data/profileData';
+import { PORTE_JAI_STATS, PROFILE_INFO } from '../data/profileData';
 
-export const FlyAwayLeadership: React.FC = () => {
+export const PorteJaiLeadership: React.FC = () => {
   // Interactive University Eligibility Assessment state
   const [destination, setDestination] = useState<'UK' | 'USA' | 'Canada' | 'Australia' | 'Europe'>('UK');
   const [degree, setDegree] = useState<'Bachelors' | 'Masters' | 'Diploma'>('Masters');
@@ -67,11 +67,11 @@ export const FlyAwayLeadership: React.FC = () => {
           </div>
 
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Fly Away International — <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Country Manager (Bangladesh)</span>
+            Porte Jai.edu — <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Founder</span>
           </h2>
 
           <p className="text-slate-300 text-base leading-relaxed">
-            Leading international student admissions across Bangladesh, bridging high-potential candidates with world-class universities in the UK, USA, Canada, Australia, and Europe.
+            Leading international student admissions at Porte Jai.edu, bridging high-potential candidates with world-class universities in the UK, USA, Canada, Australia, and Europe.
           </p>
         </div>
 
@@ -112,7 +112,7 @@ export const FlyAwayLeadership: React.FC = () => {
               1 Year+
             </div>
             <div className="text-xs sm:text-sm text-slate-300 font-medium mt-1">
-              Country Manager (Bangladesh)
+              Founder — Porte Jai.edu
             </div>
           </div>
 
@@ -141,7 +141,7 @@ export const FlyAwayLeadership: React.FC = () => {
             </h3>
 
             <div className="space-y-3">
-              {FLY_AWAY_STATS.achievements.map((item, idx) => (
+              {PORTE_JAI_STATS.achievements.map((item, idx) => (
                 <div 
                   key={idx}
                   className="p-4 rounded-xl bg-slate-900/80 border border-slate-800/90 hover:border-slate-700 hover:bg-slate-900 transition-all flex items-start gap-4"
@@ -170,10 +170,10 @@ export const FlyAwayLeadership: React.FC = () => {
                 <BookOpen className="w-5 h-5 text-blue-400 shrink-0 mt-1" />
                 <div>
                   <p className="text-sm text-slate-200 italic font-medium leading-relaxed">
-                    "{FLY_AWAY_STATS.quote}"
+                    "{PORTE_JAI_STATS.quote}"
                   </p>
                   <div className="mt-2 text-xs text-blue-300 font-semibold">
-                    — Junaid Ahamed Jesan, Country Manager (Bangladesh)
+                    — Junaid Ahamed Jesan, Founder at Porte Jai.edu
                   </div>
                 </div>
               </div>
@@ -194,7 +194,7 @@ export const FlyAwayLeadership: React.FC = () => {
               </div>
 
               <p className="text-xs text-slate-400 mb-4">
-                Simulate university qualification and scholarship assessment based on Fly Away International's admission rubric:
+                Simulate university qualification and scholarship assessment based on Porte Jai.edu's admission rubric:
               </p>
 
               {/* Form Controls */}

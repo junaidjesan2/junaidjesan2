@@ -19,7 +19,7 @@ export const ProjectsSection: React.FC = () => {
           </h2>
 
           <p className="text-slate-300 text-base leading-relaxed">
-            From leading Fly Away International's Bangladesh division to crafting performant web applications and robust test frameworks.
+            From founding Porte Jai.edu to crafting performant web applications and robust test frameworks.
           </p>
         </div>
 

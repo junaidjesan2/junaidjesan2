@@ -10,7 +10,7 @@ import {
   Code2,
   GraduationCap
 } from 'lucide-react';
-import { PROFILE_INFO, FLY_AWAY_STATS } from '../data/profileData';
+import { PROFILE_INFO, PORTE_JAI_STATS } from '../data/profileData';
 
 export const Hero: React.FC = () => {
   const [subIndex, setSubIndex] = useState(0);
@@ -72,25 +72,20 @@ export const Hero: React.FC = () => {
 
             {/* Descriptive Summary */}
             <p className="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Driving international educational access as <strong>Country Manager (Bangladesh)</strong> at{' '}
+              Driving international educational access as <strong>Founder</strong> at{' '}
               <a 
-                href={PROFILE_INFO.flyAwayUrl} 
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="#leadership"
                 className="text-blue-400 hover:text-blue-300 font-semibold underline decoration-blue-500/50 hover:decoration-blue-400 inline-flex items-center gap-1"
               >
-                Fly Away International
-                <ExternalLink className="w-3.5 h-3.5 inline" />
+                Porte Jai.edu
               </a>
               , while building scalable applications with <strong>React</strong>, engineering automated test suites with <strong>Playwright & SQA</strong>, and conquering algorithms on <strong>LeetCode & Codeforces</strong>.
             </p>
 
-            {/* Success Badge from README */}
+            {/* Success Badge */}
             <div className="pt-2 flex justify-center lg:justify-start">
               <a 
-                href={PROFILE_INFO.flyAwayUrl} 
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="#leadership"
                 className="transform hover:scale-105 transition-transform"
               >
                 <img 
@@ -107,7 +102,7 @@ export const Hero: React.FC = () => {
                 href="#leadership"
                 className="px-5 py-3 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold text-sm shadow-lg shadow-blue-600/30 flex items-center gap-2 group transition-all"
               >
-                <span>Fly Away Leadership Hub</span>
+                <span>Porte Jai.edu Founder Hub</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
 
@@ -120,12 +115,12 @@ export const Hero: React.FC = () => {
               </a>
 
               <a
-                href={PROFILE_INFO.portfolioUrl}
+                href="https://github.com/junaidjesan2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-3 rounded-xl bg-slate-900/60 hover:bg-slate-800/80 text-slate-300 hover:text-white text-sm border border-slate-800 flex items-center gap-1.5 transition-all"
               >
-                <span>junaidjesan.netlify.app</span>
+                <span>GitHub @junaidjesan2</span>
                 <ExternalLink className="w-4 h-4 text-slate-400" />
               </a>
             </div>
@@ -169,8 +164,8 @@ export const Hero: React.FC = () => {
                   <Globe className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-white text-lg">Country Manager (Bangladesh)</h3>
-                  <p className="text-xs text-slate-400">Fly Away International • 1 Year+ Tenure</p>
+                  <h3 className="font-bold text-white text-lg">Founder</h3>
+                  <p className="text-xs text-slate-400">Porte Jai.edu • 1 Year+ Track Record</p>
                 </div>
               </div>
 
@@ -207,7 +202,7 @@ export const Hero: React.FC = () => {
 
               {/* Leadership quote from README */}
               <blockquote className="p-3.5 rounded-xl bg-blue-950/20 border-l-4 border-blue-500 text-xs text-slate-300 italic">
-                "{FLY_AWAY_STATS.quote}"
+                "{PORTE_JAI_STATS.quote}"
               </blockquote>
             </div>
 
@@ -227,7 +222,7 @@ export const Hero: React.FC = () => {
               <div className="space-y-1.5 text-slate-300">
                 <p><span className="text-blue-400">const</span> <span className="text-cyan-300">coreStack</span> = [<span className="text-amber-300">'React'</span>, <span className="text-amber-300">'JavaScript'</span>, <span className="text-amber-300">'Playwright'</span>, <span className="text-amber-300">'Postman'</span>];</p>
                 <p><span className="text-blue-400">const</span> <span className="text-cyan-300">focus</span> = <span className="text-emerald-400">'Machine Learning 📚 & Problem Solving ⚡'</span>;</p>
-                <p><span className="text-blue-400">const</span> <span className="text-cyan-300">status</span> = <span className="text-emerald-400">'Country Manager @ Fly Away Int. 🌏'</span>;</p>
+                <p><span className="text-blue-400">const</span> <span className="text-cyan-300">status</span> = <span className="text-emerald-400">'Founder @ Porte Jai.edu 🌏'</span>;</p>
               </div>
             </div>
 

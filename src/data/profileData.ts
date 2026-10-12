@@ -28,7 +28,7 @@ export const PROFILE_INFO = {
     "SQA & Playwright Test Automation Specialist 🧪",
     "Machine Learning Explorer 📚"
   ],
-  bio: "Founder at Porte Jai.edu with a stellar track record of 150+ successful student admissions (100% success rate) to premier international universities. Simultaneously passionate about Software Engineering, Test Automation (Playwright, SQA), React ecosystem, and competitive problem-solving.",
+  bio: "Founder at Porte Jai.edu with a stellar track record of 500+ successful student admissions (upto 90% success rate) to premier international universities. Simultaneously passionate about Software Engineering, Test Automation (Playwright, SQA), React ecosystem, and competitive problem-solving.",
   email: "junaidjesan2@gmail.com",
   porteJaiUrl: "https://portejaiedu.netlify.app/index.html",
   location: "Dhaka, Bangladesh",
@@ -82,13 +82,14 @@ export const PROFILE_INFO = {
 export const PORTE_JAI_STATS = {
   role: "Founder",
   organization: "Porte Jai.edu",
-  admissions: "1000+",
+  duration: "3 Year+",
+  admissions: "500+",
   successRate: "upto 90%",
   partnerUniversities: "45+",
   countriesRepresented: ["South Korea", "China", "Malaysia", "Hungary", "Cyprus"],
   achievements: [
     {
-      title: "1000+ Successful Student Admissions",
+      title: "500+ Successful Student Admissions",
       detail: "Assisted students in securing admissions and scholarship offers across top-tier universities worldwide.",
       tag: "Admissions"
     },
@@ -288,9 +289,9 @@ export const PROJECTS = [
     title: "Porte Jai.edu — Global Admissions & Study Abroad",
     subtitle: "Founder & Lead Educational Strategist",
     link: "#leadership",
-    description: "International study abroad and foreign university admissions initiative founded by Junaid Ahamed Jesan, achieving 150+ student placements with a 100% visa success rate.",
+    description: "International study abroad and foreign university admissions initiative founded by Junaid Ahamed Jesan, achieving 500+ student placements with upto 90% visa success rate.",
     tags: ["Global Education", "Founder", "Admissions", "Student Mentorship"],
-    badge: "Founder • 150+ Placements",
+    badge: "Founder • 500+ Placements",
     status: "Active Initiative"
   },
   {

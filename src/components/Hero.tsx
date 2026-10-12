@@ -89,8 +89,8 @@ export const Hero: React.FC = () => {
                 className="transform hover:scale-105 transition-transform"
               >
                 <img 
-                  src="https://img.shields.io/badge/🌟_150+_Successful_Admissions-100%25_Success_Rate-brightgreen?style=for-the-badge" 
-                  alt="150+ Successful Admissions 100% Success Rate"
+                  src="https://img.shields.io/badge/🌟_500+_Successful_Admissions-upto_90%25_Success_Rate-brightgreen?style=for-the-badge" 
+                  alt="500+ Successful Admissions upto 90% Success Rate"
                   className="rounded-md shadow-lg shadow-emerald-950/40"
                 />
               </a>
@@ -165,7 +165,7 @@ export const Hero: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-white text-lg">Founder</h3>
-                  <p className="text-xs text-slate-400">Porte Jai.edu • 1 Year+ Track Record</p>
+                  <p className="text-xs text-slate-400">Porte Jai.edu • 3 Year+ Track Record</p>
                 </div>
               </div>
 
@@ -173,14 +173,14 @@ export const Hero: React.FC = () => {
               <div className="grid grid-cols-2 gap-3 mb-5">
                 <div className="p-3.5 rounded-xl bg-slate-950/80 border border-slate-800/80">
                   <div className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300 font-mono">
-                    150+
+                    500+
                   </div>
                   <div className="text-xs text-slate-400 mt-0.5 font-medium">Successful Admissions</div>
                 </div>
 
                 <div className="p-3.5 rounded-xl bg-slate-950/80 border border-slate-800/80">
                   <div className="text-2xl font-extrabold text-emerald-400 font-mono">
-                    100%
+                    95%
                   </div>
                   <div className="text-xs text-slate-400 mt-0.5 font-medium">Visa & Acceptance Rate</div>
                 </div>

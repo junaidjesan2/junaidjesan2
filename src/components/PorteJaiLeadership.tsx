@@ -21,29 +21,29 @@ import { PORTE_JAI_STATS, PROFILE_INFO } from '../data/profileData';
 
 export const PorteJaiLeadership: React.FC = () => {
   // Interactive University Eligibility Assessment state
-  const [destination, setDestination] = useState<'UK' | 'USA' | 'Canada' | 'Australia' | 'Europe'>('UK');
+  const [destination, setDestination] = useState<'South Korea' | 'China' | 'Malaysia' | 'Hungary' | 'Cyprus'>('South Korea');
   const [degree, setDegree] = useState<'Bachelors' | 'Masters' | 'Diploma'>('Masters');
   const [gpa, setGpa] = useState<'High' | 'Medium' | 'Average'>('High');
-  const [ielts, setIelts] = useState<'7.0+' | '6.0-6.5' | 'Awaiting / MOI'>('7.0+');
+  const [ielts, setIelts] = useState<'7.0+' | '6.0-6.5' | 'less than 6.0'>('7.0+');
   const [assessed, setAssessed] = useState(false);
 
   // Recommendations generator
   const getEligibilityResult = () => {
-    let scholarshipChance = "High (Up to 50%)";
-    let universityTier = "Top Tier 1 & Russell Group / Tier 1 Global";
+    let scholarshipChance = "High (Up to 50% - 100% GKS/CSC/Stipendium)";
+    let universityTier = "Top Global Partner Universities";
     let processSpeed = "Fast-track 3-4 Weeks";
 
     if (gpa === 'Medium') {
-      scholarshipChance = "Partial (15% - 30%)";
-      universityTier = "Tier 1 & Tier 2 Accredited Universities";
+      scholarshipChance = "Partial (25% - 50%)";
+      universityTier = "Accredited Partner Universities";
     } else if (gpa === 'Average') {
-      scholarshipChance = "Need-based / Standard Tuition Waivers";
-      universityTier = "Direct Partner Universities with Foundation/Pre-Masters";
+      scholarshipChance = "Standard Tuition Waivers & Direct Entry";
+      universityTier = "Direct Partner Universities with Foundation/Language Track";
       processSpeed = "Standard 4-6 Weeks";
     }
 
-    if (destination === 'UK' && ielts === 'Awaiting / MOI') {
-      universityTier += " (MOI & University English Test Accepted)";
+    if (ielts === 'less than 6.0') {
+      universityTier += " (Foundation / Language Pathway / MOI Available)";
     }
 
     return { scholarshipChance, universityTier, processSpeed };
@@ -71,7 +71,7 @@ export const PorteJaiLeadership: React.FC = () => {
           </h2>
 
           <p className="text-slate-300 text-base leading-relaxed">
-            Leading international student admissions at Porte Jai.edu, bridging high-potential candidates with world-class universities in the UK, USA, Canada, Australia, and Europe.
+            Leading international student admissions at Porte Jai.edu, bridging high-potential candidates with world-class universities in South Korea, China, Malaysia, Hungary, and Cyprus.
           </p>
         </div>
 
@@ -83,7 +83,7 @@ export const PorteJaiLeadership: React.FC = () => {
               <Award className="w-5 h-5 text-emerald-400" />
             </div>
             <div className="text-3xl sm:text-4xl font-extrabold text-emerald-400 font-mono">
-              150+
+              500+
             </div>
             <div className="text-xs sm:text-sm text-slate-300 font-medium mt-1">
               Successful Student Admissions
@@ -109,7 +109,7 @@ export const PorteJaiLeadership: React.FC = () => {
               <Calendar className="w-5 h-5 text-indigo-400" />
             </div>
             <div className="text-3xl sm:text-4xl font-extrabold text-indigo-400 font-mono">
-              1 Year+
+              3 Year+
             </div>
             <div className="text-xs sm:text-sm text-slate-300 font-medium mt-1">
               Founder — Porte Jai.edu
@@ -202,12 +202,12 @@ export const PorteJaiLeadership: React.FC = () => {
                 {/* Destination */}
                 <div>
                   <label className="block text-xs font-mono text-slate-400 mb-1.5">1. Target Country</label>
-                  <div className="grid grid-cols-5 gap-1 text-xs">
-                    {(['UK', 'USA', 'Canada', 'Australia', 'Europe'] as const).map((dest) => (
+                  <div className="grid grid-cols-2 sm:grid-cols-5 gap-1 text-[11px] sm:text-xs">
+                    {(['South Korea', 'China', 'Malaysia', 'Hungary', 'Cyprus'] as const).map((dest) => (
                       <button
                         key={dest}
                         onClick={() => { setDestination(dest); setAssessed(true); }}
-                        className={`py-1.5 rounded-lg font-medium transition-all ${
+                        className={`py-1.5 px-1 rounded-lg font-medium transition-all truncate text-center ${
                           destination === dest 
                             ? 'bg-blue-600 text-white font-bold shadow-sm' 
                             : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
@@ -291,12 +291,12 @@ export const PorteJaiLeadership: React.FC = () => {
                       IELTS 6.0-6.5
                     </button>
                     <button
-                      onClick={() => { setIelts('Awaiting / MOI'); setAssessed(true); }}
+                      onClick={() => { setIelts('less than 6.0'); setAssessed(true); }}
                       className={`py-1.5 rounded-lg font-medium transition-all ${
-                        ielts === 'Awaiting / MOI' ? 'bg-indigo-600 text-white font-bold' : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
+                        ielts === 'less than 6.0' ? 'bg-indigo-600 text-white font-bold' : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
                       }`}
                     >
-                      MOI / Test Pending
+                      Less than 6.0
                     </button>
                   </div>
                 </div>

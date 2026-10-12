@@ -6,15 +6,15 @@ Skilled in React, JavaScript, Postman, Playwright, Competitive Programming ⚡ |
 
 ---
 
-### 🌏 Fly Away International — Country Manager (Bangladesh)
+### 🌏 Porte Jai.edu — Founder
 
 <a href="https://facebook.com/portejai.edu" target="_blank">
-  <img src="https://img.shields.io/badge/🌟_1000+_Successful_Admissions-upto 90%25_Success_Rate-brightgreen?style=for-the-badge" alt="Success Badge" />
+  <img src="https://img.shields.io/badge/🌟_500+_Successful_Admissions-upto 90%25_Success_Rate-brightgreen?style=for-the-badge" alt="Success Badge" />
 </a>
 
 💼 **Role:** Founder    
 🎯 **Achievements:**  
-- ✅ **100+ successful student admissions** to top foreign universities  
+- ✅ **500+ successful student admissions** to top foreign universities  
 - 🎓 **upto 90% admission success rate**  
 - 🤝 Increased **student engagement & trust** through personalized counseling  
 - 📈 Built strong **university partnerships** abroad  
